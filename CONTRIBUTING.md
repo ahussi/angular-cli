@@ -90,4 +90,4 @@ Must be one of the following:
 - **test**: Adding missing tests or correcting existing tests
 
 > **Personal note:** I find it helpful to run `git log --oneline` before writing a commit message
-> to stay consistent with the tone and style of recent commits in the branch.
+> to stay consistent with the style used in recent commits on the branch.
