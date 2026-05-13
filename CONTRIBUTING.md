@@ -89,35 +89,5 @@ Must be one of the following:
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **test**: Adding missing tests or correcting existing tests
 
-## Setting Up Your Development Environment
-
-### Prerequisites
-
-- Node.js (see `.nvmrc` for the required version)
-- Yarn package manager
-- Bazel (see `.bazelversion` for the required version)
-
-### Installation
-
-```shell
-# Clone the repository
-git clone https://github.com/<your-fork>/angular-cli.git
-cd angular-cli
-
-# Install dependencies
-yarn install
-```
-
-### Running Tests
-
-```shell
-# Run all tests
-yarn test
-
-# Run tests with Bazel
-bazel test //...
-```
-
-## License
-
-By contributing to Angular CLI, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+> **Personal note:** I find it helpful to run `git log --oneline` before writing a commit message
+> to stay consistent with the style used in recent commits on the branch.
